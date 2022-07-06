@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #1E2019;
+    --secondary-color: #E2C044;
+    --tertiary-color: #587B7F;
+    --quaternary-color: #393E41;
+    --light-color: #D3D0CB;
+}
+
+body {
+    height: 60%;
+    margin: 0;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+header{
+    height: 20%;
+    background-color :#E2C044;
+
+}
+
+footer{
+    height: 20%;
+    width: 100%;
+    background-color: #393E41;
+}
